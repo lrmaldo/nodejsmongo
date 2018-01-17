@@ -1,0 +1,8 @@
+extends ./layout.jade
+block contenido 
+	h2(class="swash amarillo animated fadeIn retraso-1 text-center") Productos
+	each Product in Pro
+		div(class="col-md-4 col-sm-6 col-xs12 inline-block text-center")
+			h3=Product.titulo
+			img(src=Product.imageUrl)(class="col-xs-7 col-md-4 float")
+			p(style="margin-top:1em;")(class="lato small")=Product.precio

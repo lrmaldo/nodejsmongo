@@ -1,0 +1,65 @@
+/*estilo de la página mangueras */
+
+img{
+	max-width: 100%;
+}
+.swash{
+font-family: 'Berkshire Swash', cursive;
+}
+.amarillo{
+	color: #FFA000;
+}
+.gris{
+	color:#607D8B;
+}
+.espacio-arriba{
+	margin-top: 100px;
+}
+.letraGrande{
+	font-size: 3em;
+}
+.padding-largo{
+	padding: 5px 10px;
+}
+.quitar-float{
+	float: none;
+}
+.espacio-derecha{
+	margin-right: 1em;
+}
+.texto-mediano{
+	font-size: 1.5em;
+
+}
+.retraso-1{
+	-webkit-animation-delay:1s;
+	-moz-animation-delay:1s;
+	animation-delay: 1s;
+}
+.retraso-2{
+	-webkit-animation-delay:2s;
+	-moz-animation-delay:2s;
+	animation-delay: 2s;
+}
+.inline-block{
+	float:none;
+	display: inline-block;
+	margin-right: -4px;
+}
+.senegro{
+	background-color: #000;
+}
+.no-lista{
+	list-style-type: none;
+}
+.blanco{
+	color: #fff;
+}
+#a.amarillo{
+color: #FFA000;	
+}
+.frame-tamanio{
+	max-width: 100%;
+	max-height: 100%;
+	border: 0;
+}

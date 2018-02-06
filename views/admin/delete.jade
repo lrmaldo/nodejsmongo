@@ -1,0 +1,11 @@
+extends ./layout.jade
+block contenido
+		div(class="col-md-5  d-block mx-auto  text-center float top-space ")
+			h1 Eliminar producto #{Prod.id}
+
+			form(method="POST" action="/admin/#{Prod.id}?_method=delete" style="magin-top:1.5em;" )
+				div(class="form-group")
+					label Password
+					input(type="password" name="contra" placeholder="contraseña" class="form-control")
+				div(class="form-group text-right")
+					input(type="submit" class="btn btn-info" value="Eliminar")

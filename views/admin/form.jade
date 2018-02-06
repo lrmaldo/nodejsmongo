@@ -1,0 +1,9 @@
+extends ./layout.jade
+block contenido
+	div(class="col-md-5 d-block mx-auto quitar-float top-space text-center")
+		h1 Login Administrado
+		form(method="POST" action="/admin" style="magin-top:1.5em;")
+			label Contraseña
+			input(type="password" name ="password" placeholder="Contraseña de administrador" class="form-control")
+		div(class="form-group text-right")
+			input(type="submit" class="btn btn-info" value="Entrar")
